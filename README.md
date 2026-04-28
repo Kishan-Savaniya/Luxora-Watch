@@ -5,9 +5,8 @@ The project focuses on a **luxury UI design**, smooth layout, and full responsiv
 
 ---
 
-## 🌐 Live Demo
-[https://yourusername.github.io/luxora-watch  
-*(Replace with your live project link)*](https://kishan-savaniya.github.io/Luxora-Watch/)
+## 🌐 Live Demo  
+(https://kishan-savaniya.github.io/Luxora-Watch/)
 
 ---
 
