@@ -1,0 +1,526 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LUXORA</title>
+    <!-- Bootstrap-CSS-Links -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    />
+    <!-- Bootstrap-JAVASCRIPT-Links -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!--External-CSS-Links -->
+    <link rel="stylesheet" href="../KS WATCH/index.css" />
+  </head>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <!--******* NavigationBar-Header *******-->
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+      <!-- Navbar-Logo -->
+      <div class="navbar-brand">
+        <h2 class="pt-3">LUXORA</h2>
+      </div>
+      <!-- Collapse-Toggle-Btn -->
+      <button
+        type="button"
+        class="btn navbar-toggler"
+        data-toggle="collapse"
+        data-target="#collapseNavbar"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Navbar-Items -->
+      <div class="collapse navbar-collapse" id="collapseNavbar">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="#home" class="nav-link active">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#collections" class="nav-link">Collections</a>
+          </li>
+          <li class="nav-item">
+            <a href="#heritage" class="nav-link">Heritage</a>
+          </li>
+          <li class="nav-item">
+            <a href="#craftmanship" class="nav-link">Craftmanship</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+          <li class="nav-item">
+            <button class="btn btn-success explore-btn">
+              Explore Collection
+            </button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--******* Hero/Home-Section *******-->
+    <section class="py-5 Hero-Section" id="home">
+      <div class="container-fluid pt-3">
+        <!-- Hero-Card-Img -->
+        <div class="card img-fluid" style="width: 100%">
+          <img
+            class="card-img-top"
+            src="../KS WATCH/IMG/Hero-Page-Img.jpg"
+            alt="Hero-Image"
+            style="width: 100%"
+          />
+          <div
+            class="card-img-overlay d-flex flex-column justify-content-center align-items-center text-center"
+          >
+            <h3 class="Hero-Img-Main-Heading">LUXORA</h3>
+            <h5 class="pt-3 Hero-Img-Main-SubHeading">
+              "Crafted for Time Itself"
+            </h5>
+            <a href="#" class="btn btn-success view-watch-btn mt-3"
+              >View Watches</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--******* Collection-Section *******-->
+    <section class="py-5 Collection-Section" id="collections">
+      <div class="container-fluid">
+        <h1 class="text-center pt-3 page-heading">Our Collections</h1>
+        <p class="text-center page-subtitle">
+          Timeless pieces crafted for distinction
+        </p>
+        <div class="card-deck">
+          <!-- Card-1 -->
+          <div class="card collection-cards" style="width: 100%">
+            <a href="#">
+              <img
+                class="card-img-top collection-cards-img"
+                src="../KS WATCH/IMG/Him-Img.jpg"
+                alt="Card image"
+              />
+            </a>
+            <div class="card-body">
+              <h4 class="card-title collection-title-txt">Men’s Watches</h4>
+              <p class="card-text collection-price-txt">
+                Starting at ₹45,000 · ₹45,000 – ₹85,000
+              </p>
+              <a href="#" class="btn btn-primary view-collection-btn"
+                >View Collection</a
+              >
+            </div>
+          </div>
+          <!-- Card-2 -->
+          <div class="card collection-cards" style="width: 100%">
+            <a href="#">
+              <img
+                class="card-img-top collection-cards-img"
+                src="../KS WATCH/IMG/her-img.jpg"
+                alt="Card image"
+              />
+            </a>
+            <div class="card-body">
+              <h4 class="card-title collection-title-txt">Women’s Watches</h4>
+              <p class="card-text collection-price-txt">
+                Starting at ₹38,000 · ₹38,000 – ₹75,000
+              </p>
+              <a href="#" class="btn btn-primary view-collection-btn"
+                >View Collection</a
+              >
+            </div>
+          </div>
+          <!-- Card-3 -->
+          <div class="card collection-cards" style="width: 100%">
+            <a href="#">
+              <img
+                class="card-img-top collection-cards-img"
+                src="../KS WATCH/IMG/Limited edition.jpg"
+                alt="Card image"
+              />
+            </a>
+            <div class="card-body">
+              <h4 class="card-title collection-title-txt">Limited Edition</h4>
+              <p class="card-text collection-price-txt">
+                Starting at ₹1,20,000 · ₹1,20,000 – ₹2,50,000+
+              </p>
+              <a href="#" class="btn view-collection-btn">View Collection</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--******* Heritage-Section *******-->
+
+    <section class="py-5 Heritage-Section" id="heritage">
+      <!-- Section Header -->
+      <div class="container text-center mb-5">
+        <h3 class="page-heading">Heritage</h3>
+        <h1 class="pt-3 page-heading">A Legacy of Timeless Craft</h1>
+        <p class="page-subtitle">Where tradition shapes every second</p>
+      </div>
+
+      <!-- Story + Image -->
+      <div class="container">
+        <div class="row align-items-center heritage-section">
+          <!-- Image -->
+          <div class="col-md-6 text-center">
+            <img
+              src="../KS WATCH/IMG/heritage-img.jpg"
+              alt="Heritage craftsmanship watch detail"
+              class="img-fluid heritage-img"
+            />
+          </div>
+          <!-- Text -->
+          <div class="col-md-6">
+            <div class="heritage-content pr-md-5">
+              <p class="heritage-intro">
+                For generations, the art of watchmaking has been defined by
+                patience, precision, and respect for time.
+              </p>
+
+              <p class="heritage-body">
+                At LUXORA, our heritage reflects a commitment to enduring
+                craftsmanship — shaped by tradition and refined for the modern
+                world.
+              </p>
+
+              <div class="heritage-highlights d-flex gap-4 mt-4">
+                <span>Established Legacy</span>
+                <span>Hand-Finished Details</span>
+                <span>Timeless Design</span>
+              </div>
+              <!-- Heritage-btn -->
+              <div class="mt-4">
+                <button class="btn heritage-btn">Discover Our Heritage</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Heritage Pillars -->
+      <div class="container mt-5">
+        <div class="row text-center heritage-pillars">
+          <div class="col-md-4">
+            <h3>Foundations of Precision</h3>
+            <p>
+              Built upon principles that honor accuracy, balance, and restraint.
+            </p>
+          </div>
+
+          <div class="col-md-4">
+            <h3>Crafted by Hand</h3>
+            <p>
+              Each timepiece is assembled with meticulous attention to detail.
+            </p>
+          </div>
+
+          <div class="col-md-4">
+            <h3>Enduring Philosophy</h3>
+            <p>Designed not for trends, but for generations to come.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--******* Craftsmanship's-Section *******-->
+    <section class="py-5 Craftsmanship-Section" id="craftmanship">
+      <div class="container mt-4">
+        <h1 class="text-center pt-3 page-heading">Craftsmanship</h1>
+        <p class="text-center page-subtitle">Where tradition meets precision</p>
+        <div class="row pt-4">
+          <!-- Column-1 -->
+          <div class="col-md-6">
+            <!-- Card-1 -->
+            <div
+              class="card"
+              style="width: 100%; border: 0; background-color: #9ecfd4"
+            >
+              <div class="card-body">
+                <h3 class="craft-heading">Timeless Design</h3>
+                <p class="craft-btxt">
+                  “Timeless elegance, refined through tradition and modern
+                  design.”
+                </p>
+              </div>
+            </div>
+            <!-- Card-2 -->
+            <div
+              class="card"
+              style="width: 100%; border: 0; background-color: #9ecfd4"
+            >
+              <div class="card-body">
+                <h3 class="craft-heading">Premium Materials</h3>
+                <p class="craft-btxt">
+                  “Crafted from premium materials for enduring beauty.”
+                </p>
+              </div>
+            </div>
+            <!-- Card-3 -->
+            <div
+              class="card"
+              style="width: 100%; border: 0; background-color: #9ecfd4"
+            >
+              <div class="card-body">
+                <h3 class="craft-heading">Swiss Precision</h3>
+                <p class="craft-btxt">
+                  “Powered by Swiss precision for lasting accuracy.”
+                </p>
+              </div>
+            </div>
+            <!-- Card-4 -->
+            <div
+              class="card"
+              style="width: 100%; border: 0; background-color: #9ecfd4"
+            >
+              <div class="card-body">
+                <h3 class="craft-heading">Heritage</h3>
+                <p class="craft-btxt">
+                  “Inspired by generations of craftsmanship.”
+                </p>
+              </div>
+            </div>
+            <!-- Card-5 -->
+            <div
+              class="card"
+              style="width: 100%; border: 0; background-color: #9ecfd4"
+            >
+              <div class="card-body">
+                <button class="craft-btn btn">Discover Our Craft</button>
+              </div>
+            </div>
+          </div>
+          <!-- Column-2 -->
+          <div class="col-md-6">
+            <!-- Crafting-Watch-img-->
+            <img
+              src="../KS WATCH/IMG/rolex2.jpg"
+              alt="craft-img"
+              class="img-fluid craft-img"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--******* Featured-Watch-Highlight-Section *******-->
+
+    <section class="py-5 Featured-Watch-Section">
+      <div class="container mt-4">
+        <!-- Row-1 -->
+        <div class="row">
+          <div class="col-md-6">
+            <img
+              src="../KS WATCH/IMG/feature-watch.jpg"
+              alt="Feature-Watch"
+              class="img-fluid featured-img"
+            />
+          </div>
+          <div class="col-md-6">
+            <span class="featured-label">Featured Timepiece</span>
+
+            <h2 class="featured-title">Luxora Chrono Heritage</h2>
+
+            <p class="featured-description">
+              A refined expression of precision engineering, crafted for those
+              who value time as legacy.
+            </p>
+
+            <!-- Specs -->
+            <ul class="featured-specs">
+              <li>Automatic Movement</li>
+              <li>Sapphire Crystal Glass</li>
+              <li>42mm Stainless Steel Case</li>
+              <li>72-Hour Power Reserve</li>
+            </ul>
+
+            <!-- Buttons -->
+            <div class="featured-actions mt-4">
+              <a href="#" class="btn-buy">Buy Now</a>
+              <a href="#" class="btn-enquire">Enquire</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--******* Testimonials-Brand-Trust-Section *******-->
+
+    <section class="py-5 Brand-Trust-Section" id="about">
+      <div class="container mb-4">
+        <div class="text-center">
+          <span class="small-label">Brand Trust</span>
+        </div>
+        <h1 class="text-center pt-3 page-heading">
+          Trusted by Collectors Worldwide
+        </h1>
+        <p class="text-center page-subtitle">
+          Celebrated for precision, craftsmanship, and enduring design.
+        </p>
+      </div>
+      <div class="container mt-5">
+        <div class="card-deck">
+          <!-- column-1 -->
+          <div class="card brand-card">
+            <div class="card-body">
+              <p class="text-justify brand-qt">
+                “Luxora watches carry a presence that feels timeless. Precision
+                you can sense the moment you wear it.”
+              </p>
+              <div class="testimonial-stars">★★★★★</div>
+              <span class="d-block text-muted mt-2">
+                — Watch Collector, Milan</span
+              >
+            </div>
+          </div>
+          <!-- column-2 -->
+          <div class="card brand-card">
+            <div class="card-body">
+              <p class="text-justify brand-qt">
+                “An exceptional balance of heritage craftsmanship and modern
+                refinement. Understated, yet unmistakably premium.”
+              </p>
+              <div class="testimonial-stars">★★★★★</div>
+              <span class="d-block text-muted mt-2">
+                — Horology Enthusiast
+              </span>
+            </div>
+          </div>
+          <!-- column-3 -->
+          <div class="card brand-card">
+            <div class="card-body">
+              <p class="text-justify brand-qt">
+                “From detailing to performance, Luxora reflects uncompromising
+                quality at every level.”
+              </p>
+              <div class="testimonial-stars">★★★★★</div>
+              <span class="d-block text-muted mt-2">
+                — Luxury Retail Partner</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-4">
+        <div class="row align-items-center justify-content-center text-center">
+          <div class="col-md-3">
+            <img
+              src="../KS WATCH/IMG/iso1.jpg"
+              alt="iso"
+              class="img-fluid certificate-icon"
+            />
+          </div>
+          <div class="col-md-3">
+            <img
+              src="../KS WATCH/IMG/swiss.jpg"
+              alt="iso"
+              class="img-fluid certificate-icon"
+            />
+          </div>
+          <div class="col-md-3">
+            <img
+              src="../KS WATCH/IMG/qa1.jpg"
+              alt="iso"
+              class="img-fluid certificate-icon"
+            />
+          </div>
+          <div class="col-md-3">
+            <img
+              src="../KS WATCH/IMG/hh1.jpg"
+              alt="iso"
+              class="img-fluid certificate-icon"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--******* Newsletter-CTA-Section *******-->
+    <section class="py-5 Newsletter-Section" id="contact">
+      <div class="container mt-4">
+        <div class="text-center">
+          <span class="small-label" style="color: #70B2B2;">INNER CIRCLE</span>
+        </div>
+        <h1 class="text-center pt-3 page-heading" style="color: #016B61;">Join the Inner Circle</h1>
+        <p class="text-center page-subtitle" style="color:#016B61;opacity:80%;">
+          Receive early access to new collections, craftsmanship stories, and
+          exclusive moments — reserved for a select few.
+        </p>
+      </div>
+      <div class="container">
+        <div class="row justify-content-center align-items-center mt-5">
+        <div class="col-auto">
+          <input type="email" placeholder="Enter Your Email" class="form-control">
+        </div>
+        <div class="col-auto">
+          <button class="btn btn-success news-btn">Join Now</button>
+        </div>
+        </div>
+        <p class="text-center mt-5" style="color: #016B61;opacity:60%;">"We respect your privacy. No unnecessary emails."</p>
+      </div>
+    </section>
+
+     <!--******* Footer-Section *******-->
+    <section class="py-5 Footer-Section">
+      <div class="container mt-4">
+        <!-- Row-1 -->
+         <div class="row  justify-content-center text-center">
+          <div class="col-md-3">
+            <h4 style="color:#E5E9C5;">LUXORA</h4>
+            <p style="color:#9ECFD4;">Crafted for Time Itself</p>
+          </div>
+          <div class="col-md-3">
+            <div class="row mb-3 justify-content-center text-center">
+              <h4 class="footer-main-heading">Quick Links</h4>
+            </div>
+           
+            <div class="row mb-3 foot-link justify-content-center text-center"><a href="#">Home</a></div>
+            <div class="row mb-3 foot-link justify-content-center text-center"><a href="#">Collections</a></div>
+            <div class="row mb-3 foot-link justify-content-center text-center"><a href="#">Craftsmanship</a></div>
+            <div class="row mb-3 foot-link justify-content-center text-center"><a href="#">Heritage</a></div>
+            <div class="row mb-3 foot-link justify-content-center text-center"><a href="#">Contact</a></div>
+          </div>
+          <div class="col-md-3">
+            <div class="row mb-3 justify-content-center text-center">
+             <h4 class="footer-main-heading">Legal</h4>
+            </div>
+            
+            <div class="row mb-3 foot-link justify-content-center text-center"><a href="#">Privacy Policy</a></div>
+            <div class="row mb-3 foot-link justify-content-center text-center"><a href="#">Terms & Conditions</a></div>
+            <div class="row mb-3 foot-link justify-content-center text-center"><a href="#">Returns</a></div>
+            <div class="row mb-3 foot-link justify-content-center text-center"><a href="#">Warranty</a></div>
+          </div>
+          <div class="col-md-3">
+            <div class="row mb-3 justify-content-center text-center">
+              <h4 class="footer-main-heading">Social</h4>
+            </div>
+            <div class="row mb-3 justify-content-center text-center">
+              <a href="#"><img src="../Resume📃/Image/linkedin.png" alt="linkedin" class="footer-icon"></a>
+              
+            </div>
+            <div class="row mb-3 justify-content-center text-center">
+              <a href="#"><img src="../Resume📃/Image/call.png" alt="call" class="footer-icon"></a>
+              
+            </div>
+            <div class="row mb-3 justify-content-center text-center">
+              <a href="#"><img src="../Resume📃/Image/whatsapp1.png" alt="whatsapp" class="footer-icon"></a>
+              
+            </div>
+            <div class="row mb-3 justify-content-center text-center">
+              <a href="#"> <img src="../Resume📃/Image/Mail1.png" alt="mail" class="footer-icon"></a>
+             
+            </div>
+          </div>
+          <p class="mt-4" style="color:rgba(229, 233, 197, 0.7);">© 2026 LUXORA. All rights reserved.</p>
+         </div>
+      </div>
+    </section>
+    <!--Javascript-Src -->
+    <script src="../KS WATCH/index.js"></script>
+  </body>
+</html>

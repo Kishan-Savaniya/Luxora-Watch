@@ -1,0 +1,259 @@
+/*...Navigation-Bar...*/
+.navbar {
+  background-color: #016b61;
+}
+.navbar-brand {
+  color: #e5e9c5;
+}
+.nav-link {
+  color: #e5e9c5;
+}
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active:hover {
+  color: #70b2b2;
+}
+/* Explore-Button */
+.explore-btn {
+  background-color: #016b61;
+  color: #e5e9c5;
+  border-radius: 8px;
+}
+.explore-btn:hover {
+  background-color: #70b2b2;
+}
+/*...Hero-Section...*/
+.Hero-Section {
+  background-color: #e5e9c5;
+}
+.Hero-Img-Main-Heading {
+  color: #016b61;
+}
+.Hero-Img-Main-SubHeading {
+  color: #70b2b2;
+}
+.view-watch-btn {
+  background-color: #016b61;
+  color: #e5e9c5;
+  border-radius: 8px;
+}
+.view-watch-btn:hover {
+  background-color: #70b2b2;
+}
+/*...Collection-Section...*/
+.Collection-Section {
+  background-color: #ffffff;
+}
+.collection-cards {
+  border-radius: 12px;
+  transition:all 0.6s ease-out;
+}
+.collection-cards:hover{
+transform:translateY(-8px);
+}
+.collection-cards-img {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.collection-title-txt {
+  color: #016b61;
+}
+.collection-price-txt {
+  color: #70b2b2;
+}
+.view-collection-btn {
+  background-color: #016b61;
+  color: #ffffff;
+  border-radius: 8px;
+}
+.view-collection-btn:hover {
+  background-color: #70b2b2;
+  color: #ffffff;
+}
+.page-heading {
+  color: #016b61;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+}
+.page-subtitle {
+  color: #70b2b2;
+  font-weight: 500;
+  opacity: 90%;
+}
+/*...Craftmanship-Section...*/
+.Craftsmanship-Section {
+  background-color: #9ecfd4;
+}
+.craft-heading {
+  color: #016b61;
+}
+.craft-btxt {
+  color: rgba(1, 107, 97, 0.85);
+}
+.craft-btn {
+  background-color: #9ecfd4;
+  color: #016b61;
+  border: 1px solid #016b61;
+  border-radius: 8px;
+}
+.craft-btn:hover {
+  background-color: #016b61;
+  color: #e5e9c5;
+}
+.craft-img {
+  height: 100%;
+  width: 100%;
+  transition: all 0.4s ease;
+  border-radius: 10px;
+}
+.craft-img:hover {
+  box-shadow: 0 30px 60px rgba(1, 107, 97, 0.25);
+  transform: translateY(-6px);
+}
+/*...Heritage-Section...*/
+.Heritage-Section {
+  background-color: #f7f6f3;
+}
+.heritage-img {
+  height: 500px;
+  width: 700px;
+  transition: all 0.4s ease;
+  border-radius: 10px;
+}
+.heritage-img:hover {
+  box-shadow: 0 30px 60px rgba(1, 107, 97, 0.25);
+  transform: translateY(-6px);
+}
+.heritage-btn {
+  color: #0b6f63;
+  border-bottom: 1px solid #0b6f63;
+  border-radius: 8px;
+}
+.heritage-btn:hover {
+  color: #084e46;
+  border-color: #084e46;
+}
+.heritage-highlights span {
+  color: #6f6f6f;
+}
+.heritage-intro,
+.heritage-body {
+  color: #2e2e2e;
+}
+/* ...Featured-Watch-Section... */
+.Featured-Watch-Section {
+  background-color: #016b61;
+}
+
+.featured-label {
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #9aa6a0;
+}
+
+.featured-title {
+  font-size: 36px;
+  margin: 15px 0;
+  color: #ffffff;
+}
+
+.featured-description {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #cfcfcf;
+}
+.featured-specs {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.featured-specs li {
+  font-size: 14px;
+  color: #b5b5b5;
+  padding: 6px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+.btn-buy {
+  background-color: #c9a24d; /* muted gold */
+  color: #0b141a;
+  padding: 12px 26px;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-right: 12px;
+}
+.btn-enquire {
+  color: #c9a24d;
+  border: 1px solid #c9a24d;
+  padding: 12px 26px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+/* ...Brand-Trust-Section... */
+.Brand-Trust-Section {
+  background-color: #e5e9c5;
+}
+.small-label {
+  color: #70b2b2;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  margin-bottom: 8px;
+}
+.certificate-icon {
+  max-height: 60px;
+  width: 100px;
+  margin-top: 60px;
+  opacity: 60%;
+  border-radius:50%;
+}
+.brand-card {
+  background-color: #e5e9c5;
+}
+.brand-qt {
+  color: #016b61;
+}
+.testimonial-stars {
+  color: #c9a24d; /* luxury gold */
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+/* ...Newsletter-Section... */
+.Newsletter-Section{
+  background-color:#9ECFD4;
+}
+input[type="email"]{
+  background-color:#FFFFFF;
+  color:#016B61;
+  border:1px solid #9ECFD4;
+  border-radius:6px;
+}
+.news-btn{
+  background-color:#016B61;
+  color:#E5E9C5;
+  border-radius:8px;
+}
+.news-btn:hover{
+  background-color:#70B2B2;
+}
+/* ...Footer-Section... */
+.footer-icon{
+  height:20px;
+  color:#9ECFD4;
+  size:20px;
+  width:20px;
+}
+.footer-icon:hover{
+  color:#70B2B2;
+}
+.Footer-Section{
+  background-color:#016B61;
+}
+.footer-main-heading{
+  color:#E5E9C5;
+}
+.foot-link a{
+  color:#9ECFD4;
+}
+.foot-link a:hover{
+  color:#70B2B2;
+}
